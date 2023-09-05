@@ -9,7 +9,7 @@ export const addTodo = (text) => {
     }
 }
 
-export const deleteTodo = (text) => {
+export const deleteTodo = (id) => {
     return {
         type: 'DELETE_TASK',
         payload: id
